@@ -6,7 +6,7 @@ public class Student {
     String code;
     String name;
     int    age;
-// agegar un com,etario addicional para realizar 1 Pull request
+    // Agegar un comentario addicional para realizar 1 Pull request
 
     Course[] courses; // Array de objetos de la clase Course
     int      courseCount; // Número de cursos inscritos
