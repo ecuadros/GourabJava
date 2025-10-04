@@ -46,8 +46,8 @@ public class Student {
     public String toString() {
         String courses = "";
         for (int i = 0; i < courseCount; i++) {
-            courses += "    " + this.courses[i].getCode() + "\n";
-            courses += "    " + this.courses[i].getName() + "\n";
+            courses += "    " + this.courses[i].getCode() + "";
+            courses += "    " + this.courses[i].getName() + "";
             courses += "    " + this.courses[i].getCredits() + "\n";
         }
         
@@ -73,7 +73,7 @@ public class Student {
             courses[courseCount] = course;
             courseCount++;
         } else {
-            System.out.println("No se pueden inscribir más cursos.");
+            System.out.println("No puedo matricularte en" + course.toString() + ". Has alcanzado el límite de cursos.");
         }
     }
 }

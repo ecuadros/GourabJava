@@ -35,6 +35,6 @@ public class Main {
         System.out.println(student1);
         System.out.println("--------------------");
         System.out.println(student2);
-        System.out.println("El nombre del segundo estudiante es: " + name);
+        System.out.println("El nombre del 2do estudiante es: " + name);
     }
 }
