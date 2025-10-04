@@ -22,13 +22,13 @@ public class Student {
         // 'this' se usa para diferenciar el atributo de la clase del parámetro del constructor.
         this.code = _code;
         code = _code; // Es lo mismo que la línea anterior.
-        this.name = _name;
-        this.age = _age;
+        name = _name;
+        age  = _age;
     }
     public Student(String _name) {
-        this.name = _name;
-        this.code = "N/A"; // Valor por defecto
-        this.age  = 0;      // Valor por defecto
+        name = _name;
+        code = "N/A"; // Valor por defecto
+        age  = 0;      // Valor por defecto
     }
 
     // Un método para mostrar los datos del estudiante de forma amigable.
@@ -38,6 +38,15 @@ public class Student {
         return "Student Info: \n" +
                "  Code: " + code + "\n" +
                "  Name: " + name + "\n" +
-               "  Age: " + age;
+               "  Age: "  + age;
     }
+
+    public String getName()             { return name;   }
+    public void   setName(String _name) { name = _name;  }
+
+    public String getCode()             { return code;   }
+    public void   setCode(String _code) { code = _code;  }
+
+    public int    getAge()              { return age;    }
+    public void   setAge(int _age)      { age = _age;    }
 }
