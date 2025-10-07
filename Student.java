@@ -8,7 +8,7 @@ public class Student {
     int    age;
     // Agegar un comentario addicional para realizar 1 Pull request
 
-    Course[] courses; // Array de objetos de la clase Course
+    Course[] courses;     // Array de objetos de la clase Course
     int      courseCount; // Número de cursos inscritos
 
     // Este es el "constructor" de la clase.
